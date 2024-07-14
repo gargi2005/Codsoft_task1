@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: rgb(0, 0, 33);
+color: beige;
+font-family: 'poppins',sans-serif;
+
+} 
+
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 80px;
+background-color: rgb(5, 5, 56);
+}
+
+nav ul{
+display: flex;
+justify-content: center;
+}
+
+nav ul li{
+list-style: none;
+margin: 0 23px;
+}
+
+nav ul li a{
+text-decoration: none;
+color: white;
+}
+nav ul li a:hover{
+color:red;
+font-size: 1.4rem;
+}
+
+main hr{
+border: 0;
+background: blue;
+height: 1.0px;
+margin: 20px 84px;
+}
+
+.left{
+font-size: 2rem;
+
+}
+.firstSection{
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin: 60px 0;
+}
+.firstSection> div{
+width: 30%;
+}
+
+.leftSection{
+    font-size: 2.5rem;
+    
+}
+ .rightSection img{
+    width: 60%;
+    margin: 50px 0;
+ }
+ .About{
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    padding: 5%;
+    
+}
+
+.about-img img{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 57px;
+    transform: 400ms;   
+    
+}
+.about-content {
+    text-align: center ;
+    color: white;
+    font-size: 42px;
+    margin: 2;
+    
+}
+.about-content p{
+color: beige;
+    font-size: 20px ;
+    margin: 2em o 3em;
+    text-align: center ;
+    padding-top: 2%;
+}
+.btn-box{
+    width: 345px;
+    display: flex;
+    gap: 2em;
+    padding-top: 5%;
+}
+.btn-1{
+    padding: 15px 28px;
+    background-color: black;
+    color:white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+
+}
+.btn-1:hover{
+    color:black ;
+    background-color: white;
+    border: 5px solid black;
+}
+
+.btn-2{
+    padding: 15px 28px;
+    background-color: orangered;
+    color:black;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor:pointer;
+}
+.btn-2:hover{
+    color:orangered ;
+    background-color:white ;
+    
+}
+.about-info {
+    text-align: left ;
+    color: white;
+    font-size: 20px;
+    margin: 2;
+    padding-top: 2%;
+    padding-left: 1%;
+    letter-spacing: 1%;
+    
+    
+}
+.Resume{
+    display: flex;
+    justify-content: left;
+    align-items: right;
+    padding: 5%;
+    
+}
+.container{
+    color: orangered;
+        font-size: 25px ;
+        margin: 2em o 3em;
+        text-align: left ;
+        padding-top: 2%;
+        
+        
+    } 
+.resume-content {
+        margin: 2em o 3em;
+        text-align: left ;
+        padding-top: 15%;
+        
+} 
+.h1{
+    font-size: 50px;
+    padding-left: 5%;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    padding-top: 1%;
+    
+}
+
+.content-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    min-height: 30px;
+    width: 330px;
+    padding: 10px 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 4px;
+    background: orangered;
+    border: 2px solid transparent;
+    border-radius: 13px;
+    padding-left: 4%;
+    
+}
+.card :hover{
+    color:orangered ;
+  background-color:white ;
+}
+.card h2{
+    font-size:36;
+    color: black;
+}
+.card i{
+    font-size:42;
+    color: black;
+}
+.work{
+    display: flex;
+    justify-content: left;
+    align-items: right;
+    padding-top: 1%;
+}
+
+.about-work {
+    text-align: center ;
+    color: white;
+    font-size: 42px;
+    margin: 1%;
+    padding-left: 5%;
+    
+}
+.work-img img{
+    width: 380px;
+    height: 300px;
+    border-radius: 13px;
+    padding-top: 2%;
+}
+.Contact{
+    min-height: 100vh;
+    padding: 20px;
+    text-align: left;
+}
+.cont{
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+.cont h2{
+    font-size: 36px;
+    margin-bottom: 40px;
+    
+}
+.contact-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid: gap 30px;
+}
+.contact-form{
+    text-align: left;
+}
+.contact-form h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+.form-group{
+    margin-bottom: 20px;
+}
+input , textarea{
+    width:100%;
+    padding: 12px;
+    border-radius:8px ;
+    border: none;
+}
+input:focus,
+textarea:focus{
+    outline: none;
+    box-shadow: 0 0 8px;
+}
+button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color:orangered;
+    color:black;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+button:hover{
+    color:orangered ;
+    background-color:white ;
+}  
+.contact-info{
+    text-align: left;
+    padding-left: 40%;
+} 
+.contact-info h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:white;
+}
+.contact-info p{
+    margin-bottom: 10px;
+    color:white;
+    padding-left: 20%;
+}
+.contact-info i{
+    color: orangered;
+    margin-right:10px ;
+}
+.footercontainer{
+    width:100%;
+    padding: 70px 30px 20px;
+
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+   
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+    opacity:0.9;
+}
+.socialicons a:hover{
+    background-color: orangered;
+    transition: 0.5s;
+}  
+.socialicons a:hover i{
+    color:white;
+    transition: 0.5s;
+}  
+.footerbottom{
+    padding: 20px;
+    text-align: center;
+}
+.year{
+    color: orangered;
+}
+.Heading{
+    color: orangered;
+ }
+
+.purple{
+    color: orangered;
+ }
+
+#element{
+    color: blueviolet;
+}
+
+ 
